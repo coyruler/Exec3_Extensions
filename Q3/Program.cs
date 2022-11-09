@@ -12,6 +12,7 @@ namespace Q3
 		{
 
 			string value = "1234";
+
 			var result =value.ToInt(-1);
 			Console.WriteLine(result);
 
@@ -22,6 +23,7 @@ namespace Q3
 			value = String.Empty;
 			result = value.ToInt(-1);
 			Console.WriteLine(result);
+
 		}
     }
 	public static class convert
