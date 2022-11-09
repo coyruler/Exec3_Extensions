@@ -12,12 +12,13 @@ namespace Q3
 		{
 
 			string value = "1234";
-			int value2 = 10000;
 			var result =value.ToInt(-1);
 			Console.WriteLine(result);
+
 			value = "123asd";
 			result = value.ToInt(-1);
 			Console.WriteLine(result);
+
 			value = String.Empty;
 			result = value.ToInt(-1);
 			Console.WriteLine(result);
